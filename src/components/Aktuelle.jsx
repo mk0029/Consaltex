@@ -26,6 +26,9 @@ function Aktuelle() {
                     return (
                       <div
                         className="col-lg-4 col-md-6 my-lg-0 my-sm-4 my-2  p-sm-2 p-md-3 z_index1  "
+                        data-aos="fade-up"
+                        data-aos-easing="ease-in-out"
+                        data-aos-duration="1000"
                         key={past}
                       >
                         <div className="box_hover_common bg_team h-100">

@@ -11,7 +11,7 @@ import Loader from "./components/Loader";
 import BackTop from "./components/BackTop";
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
   return (
     <>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import gotop from "../assets/img/Png/add-back-to-top-button-manually-wordpress-removebg-preview.png";
 function BackTop() {
   const [backtop, setBackTop] = useState(0);
   const top = () => {
@@ -19,7 +19,7 @@ function BackTop() {
       <section>
         <div>
           {" "}
-          <button
+          <span
             id="btn"
             onClick={() => top()}
             style={{ zIndex: "99" }}
@@ -29,8 +29,12 @@ function BackTop() {
                 : "d-none  "
             }
           >
-            gotop
-          </button>{" "}
+            <img
+              className="gotop bg_primery border-0"
+              src={gotop}
+              alt=" Go-to-Top"
+            />
+          </span>{" "}
         </div>
       </section>
     </>

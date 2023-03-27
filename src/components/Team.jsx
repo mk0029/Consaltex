@@ -7,7 +7,7 @@ function Team() {
     <>
       <section className="py-5 position-relative">
         <img
-          className="Grey_Pantagun_Team position-absolute z_index0 d-none d-md-block"
+          className="Grey_Pantagun_Team Grey_Pantagun_animation position-absolute z_index0 d-none d-md-block"
           src={Grey_Pantagun_Header}
           alt="Grey Pantagun "
         />
@@ -28,7 +28,7 @@ function Team() {
                     className="col-lg-4 col-md-6 my-lg-0 my-sm-4 my-2  z_index1 "
                     data-aos="flip-down"
                     data-aos-easing="ease-in-out"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                   >
                     <div className="bg_team h-100 box_hover_common">
                       <img className="w-100" src={pastData.img_2} alt="" />

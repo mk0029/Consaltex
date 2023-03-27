@@ -20,10 +20,15 @@ function Ergebnisse() {
           alt="Green Shaddow"
         />
         <div className=" container">
-          <div className="py-lg-5 mb-xl-5">
+          <div className="py-xl-5 py-xl-3 mb-xl-5">
             {" "}
             <div className="row justify-content-center justify-content-md-start">
-              <div className="col-xl-7 col-lg-8 ">
+              <div
+                className="col-xl-7 col-lg-8 "
+                data-aos="fade-right"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+              >
                 <div className="px-sm-4 h-100 d-flex flex-column align-items-center align-items-md-start  justify-content-center">
                   {" "}
                   <h2 className=" text_theme_white text_strock1_themeWhite text-center text-md-start ff_Poiret fw-normal fs_xl mb-3">
@@ -66,7 +71,7 @@ function Ergebnisse() {
                 className="col-lg-4  col-md-6 col-sm-8 col-10 h-100"
                 data-aos="zoom-in-left"
                 data-aos-easing="ease-in-out"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
               >
                 <div className="d-flex flex-column justify-content-center justify-content-md-start">
                   {" "}

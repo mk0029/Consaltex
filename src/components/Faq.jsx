@@ -29,7 +29,7 @@ function Faq() {
         <img
           src={GreyHexagunFaq}
           alt="GreyHexagunFaq"
-          className="GreyHexagunFaq position-absolute d-none d-sm-block"
+          className="GreyHexagunFaq Grey_Pantagun_animation position-absolute d-none d-sm-block"
         />
         <div className="container z_index-1">
           <div className="row justify-content-center">
@@ -51,6 +51,9 @@ function Faq() {
                   <Accordion.Item
                     className="common_accordion_width mx-auto"
                     eventKey="0"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000"
                   >
                     <Accordion.Header className=" fs_md fw-semibold ff_Montserrat  mt-4 text_strock1_themeWhite text_strok">
                       Was unterscheidet euch von anderen Agenturen?
@@ -70,6 +73,9 @@ function Faq() {
                   <Accordion.Item
                     className="common_accordion_width mx-auto"
                     eventKey="1"
+                    data-aos="fade-left"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000"
                   >
                     <div className="border_solid mt-4"></div>
                     <Accordion.Header className=" fs_md fw-semibold ff_Montserrat  mt-4 text_strock1_themeWhite text_strok">
@@ -90,6 +96,9 @@ function Faq() {
                   <Accordion.Item
                     className="common_accordion_width mx-auto"
                     eventKey="2"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000"
                   >
                     <div className="border_solid mt-4"></div>
                     <Accordion.Header className=" fs_md fw-semibold ff_Montserrat  mt-4 text_strock1_themeWhite text_strok">
@@ -109,6 +118,9 @@ function Faq() {
                   <Accordion.Item
                     className="common_accordion_width mx-auto"
                     eventKey="3"
+                    data-aos="fade-left"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000"
                   >
                     <div className="border_solid mt-4"></div>
                     <Accordion.Header className=" fs_md fw-semibold ff_Montserrat  mt-4 text_strock1_themeWhite text_strok">
@@ -128,6 +140,9 @@ function Faq() {
                   <Accordion.Item
                     className="common_accordion_width mx-auto"
                     eventKey="4"
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000"
                   >
                     <div className="border_solid mt-4 border_bottom_solid"></div>
                     <Accordion.Header className=" fs_md fw-semibold ff_Montserrat  mt-4 text_strock1_themeWhite text_strok">

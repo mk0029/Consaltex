@@ -16,7 +16,12 @@ const Weiter = () => {
             </h2>
             <div className="py-xl-5 py-lg-4 py-3">
               <div className="row">
-                <div className="col-lg-3 col-md-6 position-relative">
+                <div
+                  className="col-lg-3 col-md-6 position-relative"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
+                  data-aos-duration="1000"
+                >
                   <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
                     {" "}
                     <img
@@ -89,7 +94,12 @@ const Weiter = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 position-relative">
+                <div
+                  className="col-lg-3 col-md-6 position-relative"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
+                  data-aos-duration="1500"
+                >
                   <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
                     {" "}
                     <img
@@ -172,7 +182,12 @@ const Weiter = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 position-relative">
+                <div
+                  className="col-lg-3 col-md-6 position-relative"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
+                  data-aos-duration="2000"
+                >
                   <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
                     {" "}
                     <img
@@ -244,7 +259,12 @@ const Weiter = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 position-relative">
+                <div
+                  className="col-lg-3 col-md-6 position-relative"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-in-out"
+                  data-aos-duration="2500"
+                >
                   <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
                     {" "}
                     {/* <img

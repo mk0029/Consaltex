@@ -262,3 +262,19 @@ label span {
     transform: scale(1);
   }
 }
+.gotop {
+  width: 50px;
+}
+
+@keyframes gotop {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.btn_goto_top_pos {
+  width: 50px;
+  animation: gotop 1s linear 0s infinite alternate;
+}

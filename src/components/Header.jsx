@@ -21,7 +21,7 @@ function Header() {
           alt="Green Shaddow"
         />
         <img
-          className="Grey_Pantagun_Header position-absolute z_index0 Grey_Pantagun_animation"
+          className="Grey_Pantagun_Header Grey_Pantagun_animation position-absolute z_index0 Grey_Pantagun_animation"
           src={Grey_Pantagun_Header}
           alt="Grey Pantagun "
         />
@@ -42,7 +42,7 @@ function Header() {
           <div className="row justify-content-">
             <div className="col-xl-8 col-lg-6 col-sm-6 position-relative">
               <img
-                className="GreyCube_head position-absolute"
+                className="GreyCube_head Grey_Pantagun_animation position-absolute"
                 src={GreyCube_head}
                 alt=""
               />
@@ -57,7 +57,7 @@ function Header() {
             <div className="col-xl-3 col-md-5 ">
               <div className="h-100 justify-content-center d-flex flex-column align-items-center align-items-md-start margin_topNagetiv position-relative z_index1">
                 <img
-                  className="Pink_Tube_Header position-absolute z_index0"
+                  className="Pink_Tube_Header Pink_Tube_Animation position-absolute z_index0"
                   src={Pink_tube}
                   alt="Tube pink"
                 />

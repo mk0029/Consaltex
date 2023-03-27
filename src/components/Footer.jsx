@@ -9,9 +9,9 @@ function Footer() {
           <div className="row flex-column-reverse flex-md-row">
             <div
               className="col-md-4 my-md-0 my-3"
-              data-aos="zoom-in"
-              data-aos-easing="ease-in-out"
-              data-aos-duration="1000"
+              // data-aos="zoom-in"
+              // data-aos-easing="ease-in-out"
+              // data-aos-duration="1000"
             >
               <div className=" d-flex justify-content-between justify-content-md-center flex-md-column justify-content-center gap-2 h-100">
                 <Link to="/">

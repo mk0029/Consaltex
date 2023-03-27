@@ -13,7 +13,7 @@ function MyCalander() {
         <img
           src={PINKtubeCalander}
           alt="PINKtubeCalander"
-          className="PINKtubeCalander position-absolute z_index0"
+          className="PINKtubeCalander  position-absolute z_index0"
         />
         <img
           src={GreenRightCalander}
@@ -23,7 +23,12 @@ function MyCalander() {
         <div className=" container">
           <div className="">
             <div className="row">
-              <div className="col-md-7">
+              <div
+                className="col-md-7"
+                data-aos="fade-right"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+              >
                 <div className=" text_theme_white">
                   <h3 className=" ff_Montserrat fw-normal fs_sm position-relative line_before text_theme_white">
                     Noch Fragen?
@@ -56,7 +61,12 @@ function MyCalander() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-5 mt-5 mt-md-0   ">
+              <div
+                className="col-md-5 mt-5 mt-md-0"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000"
+              >
                 <div className="py-3 px-sm-4  px-3 z_index1 position-relative  bg_calander">
                   <div className="d-flex align-items-center  justify-content-between px-md-2">
                     <a href="#">
