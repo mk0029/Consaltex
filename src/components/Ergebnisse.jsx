@@ -7,7 +7,6 @@ import PinkCube from "../assets/img//webp/Cube(pink).webp";
 function Ergebnisse() {
   return (
     <>
-      {" "}
       <section className="py-5 mt-xl-5 position-relative">
         <img
           className="Ergebnisse_Greenimg_right position-absolute "
@@ -21,7 +20,6 @@ function Ergebnisse() {
         />
         <div className=" container">
           <div className="py-xl-5 py-xl-3 mb-xl-5">
-            {" "}
             <div className="row justify-content-center justify-content-md-start">
               <div
                 className="col-xl-7 col-lg-8 "
@@ -30,7 +28,6 @@ function Ergebnisse() {
                 data-aos-duration="1000"
               >
                 <div className="px-sm-4 h-100 d-flex flex-column align-items-center align-items-md-start  justify-content-center">
-                  {" "}
                   <h2 className=" text_theme_white text_strock1_themeWhite text-center text-md-start ff_Poiret fw-normal fs_xl mb-3">
                     Wir liefern Ergebnisse
                   </h2>
@@ -74,7 +71,6 @@ function Ergebnisse() {
                 data-aos-duration="1000"
               >
                 <div className="d-flex flex-column justify-content-center justify-content-md-start">
-                  {" "}
                   <img
                     className="Width_img_EREGEBNISSE"
                     src={Image2}

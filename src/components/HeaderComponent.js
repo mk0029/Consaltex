@@ -16,7 +16,6 @@ import Loader from "./Loader";
 const HeaderComponent = () => {
   return (
     <>
-      {" "}
       <Loader TeXTLOADER={"Consaltex"} textCount={"4000"} />
       <div className=" overflow-hidden">
         <div className="d-flex flex-column min_vh_100 bg_primery bg_img_header">
@@ -24,8 +23,8 @@ const HeaderComponent = () => {
           <div className="d-flex flex-grow-1 flex-column justify-content-center ">
             <Header />
           </div>
-        </div>{" "}
-        <Logos /> <Umsatzmaschine /> <Testimonials /> <Team /> <Ergebnisse />{" "}
+        </div>
+        <Logos /> <Umsatzmaschine /> <Testimonials /> <Team /> <Ergebnisse />
         <Weiter /> <Aktuelle />
         <Faq />
         <MyCalander />

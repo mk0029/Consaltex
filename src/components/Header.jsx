@@ -11,7 +11,7 @@ function Header() {
     <>
       <section className="pt-4 pt-xl-5 pb-md-0 pb-4 position-relative">
         <img
-          className="hrader_Greenimg_left position-absolute"
+          className="hrader_Greenimg_left position-absolute z_index0"
           src={Left_green}
           alt="Green Shaddow"
         />
@@ -28,10 +28,10 @@ function Header() {
         <div className=" container">
           {" "}
           <div className="Translate_Y_Taxt">
-            <h5 className=" ff_Montserrat fs_sm fw-normal text_theme_white After_line_header position-relative">
+            <h5 className=" ff_Montserrat fs_sm fw-normal text_theme_white After_line_header position-relative z_index5">
               Wie Testosteron für deine Agentur
             </h5>
-            <h1 className=" text_strock1_themeWhite text-center ff_Poiret fs_2xl fw-normal text_theme_white">
+            <h1 className=" text_strock1_themeWhite text-center ff_Poiret fs_2xl fw-normal text_theme_white position-relative z_index2">
               Wir verhelfen{" "}
               <span className="after_bgPink position-relative ms-2">
                 <span className="after_bgPink_2">Agenturen</span>

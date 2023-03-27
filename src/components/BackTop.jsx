@@ -18,7 +18,6 @@ function BackTop() {
     <>
       <section>
         <div>
-          {" "}
           <span
             id="btn"
             onClick={() => top()}
@@ -34,7 +33,7 @@ function BackTop() {
               src={gotop}
               alt=" Go-to-Top"
             />
-          </span>{" "}
+          </span>
         </div>
       </section>
     </>

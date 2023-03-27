@@ -260,12 +260,12 @@ const Weiter = () => {
                   </div>
                 </div>
                 <div
-                  className="col-lg-3 col-md-6 position-relative"
+                  className="col-lg-3 col-md-6 position-relative z_index6"
                   data-aos="fade-up"
                   data-aos-easing="ease-in-out"
                   data-aos-duration="2500"
                 >
-                  <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
+                  <div className=" d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100  position-relative z_index6">
                     {" "}
                     <span className="mb-3">
                       <svg

@@ -43,7 +43,6 @@ function Faq() {
                 Häufig gestellte<br></br> Fragen
               </h3>
               <div>
-                {" "}
                 <Accordion
                   className="mt-5 z_index6 position-relative"
                   defaultActiveKey="0"

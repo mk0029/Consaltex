@@ -121,6 +121,9 @@ label span {
 .bg_nav {
   background-color: #01110f;
 }
+.cursor_pointer {
+  cursor: pointer;
+}
 @media (min-width: 1140px) {
   .container {
     width: 1250px !important;

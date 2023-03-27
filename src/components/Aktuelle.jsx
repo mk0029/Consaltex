@@ -7,7 +7,7 @@ function Aktuelle() {
     <>
       <section className="py-5 position-relative">
         <img
-          className="Aktyelle_Greenimg_right position-absolute z_index1"
+          className="Aktyelle_Greenimg_right position-absolute z_index-1"
           src={Right_green}
           alt="Green Shaddow"
         />{" "}

@@ -37,11 +37,10 @@ function MyCalander() {
                     Jetzt Erstgespräch vereinbaren
                   </h2>
                   <p className="ff_Montserrat fw-normal fs_sm text_theme_white">
-                    Fülle das Formular aus und ein Experte auss{" "}
+                    Fülle das Formular aus und ein Experte auss
                     <span className="d-md-block">
-                      {" "}
                       unserem Team wird sich zum ausgewählten
-                    </span>{" "}
+                    </span>
                     Zeitfenster bei dir melden.
                   </p>
                   <div className="calander_Sprator_line my-5"></div>
@@ -49,13 +48,13 @@ function MyCalander() {
                     <span className=" d-flex gap-2 align-items-center ">
                       <img src={location} alt="LOCATION" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander">
-                        22143 Hamburg, Rahlstedter Bahnhofstraße 27-29{" "}
+                        22143 Hamburg, Rahlstedter Bahnhofstraße 27-29
                       </span>
                     </span>
                     <span className=" ff_Montserrat fs_sm fw-normal d-flex gap-2 align-items-center ">
                       <img src={mail} alt="EMAIL" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander ">
-                        info@consaltex.de{" "}
+                        info@consaltex.de
                       </span>
                     </span>
                   </div>
@@ -79,9 +78,8 @@ function MyCalander() {
                       October
                     </a>
                     <a href="#">
-                      {" "}
                       <img src={arrow} alt="ERROR TO LOAD" />
-                    </a>{" "}
+                    </a>
                   </div>
                   <table className="mt-4 d-flex justify-content-between w-100 text-center px-md-2">
                     <tr className=" z_index1 d-flex flex-column">
@@ -259,7 +257,7 @@ function MyCalander() {
                       <button className="w-100 fs_xsm fw-normal text_theme_white btn_tabel z_index1">
                         3.00 PM-4.00 PM
                       </button>
-                    </div>{" "}
+                    </div>
                     <div className="col-6 p-1">
                       <button className="w-100 fs_xsm fw-normal text_theme_white btn_tabel z_index1">
                         6.00 PM-8.00 PM
@@ -267,7 +265,6 @@ function MyCalander() {
                     </div>
                   </div>
                   <div className="row justify-content-center mt-3">
-                    {" "}
                     <div className="col-6">
                       <div className="d-flex justify-content-between common_button px-0 py-0 align-items-center z_index1">
                         <span className=" position-relative z_index2">

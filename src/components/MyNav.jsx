@@ -32,7 +32,7 @@ const MyNav = (props) => {
                 </a>
               </div>
               <div className="d-md-flex gap-2 d-none ">
-                <span className=" facebook pe-1 z_index1">
+                <span className=" facebook pe-1 z_index1 cursor_pointer">
                   <svg
                     className={props.display_none}
                     width="28"
@@ -83,7 +83,7 @@ const MyNav = (props) => {
                     </defs>
                   </svg>
                 </span>
-                <span className="Tiktok pe-1 z_index1">
+                <span className="Tiktok pe-1 z_index1 cursor_pointer">
                   <svg
                     className={props.display_none}
                     width="28"
@@ -120,7 +120,7 @@ const MyNav = (props) => {
                     </defs>
                   </svg>
                 </span>
-                <span className=" z_index1 LinkedIn pe-1">
+                <span className=" z_index1 LinkedIn pe-1 cursor_pointer">
                   <svg
                     className={props.display_none}
                     width="28"
@@ -167,7 +167,7 @@ const MyNav = (props) => {
                     </defs>
                   </svg>
                 </span>
-                <span className=" z_index1 InstaGram pe-1">
+                <span className=" z_index1 InstaGram pe-1 cursor_pointer">
                   <svg
                     className={props.display_none}
                     width="28"
@@ -204,7 +204,7 @@ const MyNav = (props) => {
                     </defs>
                   </svg>
                 </span>
-                <span className=" z_index1 YouTube pe-1">
+                <span className=" z_index1 YouTube pe-1 cursor_pointer">
                   <svg
                     className={props.display_none}
                     width="28"
