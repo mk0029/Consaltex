@@ -27,7 +27,7 @@ const Weiter = () => {
                     <img
                       className=" position-absolute box_weiter_arrow1"
                       src={arrow}
-                      alt=""
+                      alt="ARROW"
                     />
                     <span className="mb-3">
                       <svg
@@ -105,7 +105,7 @@ const Weiter = () => {
                     <img
                       className=" position-absolute box_weiter_arrow2"
                       src={arrow}
-                      alt=""
+                      alt="ARROW"
                     />
                     <span className="mb-3">
                       <svg
@@ -193,7 +193,7 @@ const Weiter = () => {
                     <img
                       className=" position-absolute box_weiter_arrow3"
                       src={arrow}
-                      alt=""
+                      alt="ARROW"
                     />
                     <span className="mb-3">
                       <svg
@@ -267,11 +267,6 @@ const Weiter = () => {
                 >
                   <div className="d-flex align-items-center flex-column text_theme_white justify-content-center mt-xl-5 pb-xl-4 pt-3 px-3 box_Weiter h-100 position-relative">
                     {" "}
-                    {/* <img
-                      className=" position-absolute box_weiter_arrow"
-                      src={arrow}
-                      alt=""
-                    /> */}
                     <span className="mb-3">
                       <svg
                         width="76"
@@ -345,7 +340,7 @@ const Weiter = () => {
                   <img
                     className="imgLine_btn_common"
                     src={Arrow_btn_nav}
-                    alt=""
+                    alt="ERR TO FOUND"
                   />
                 </a>
               </span>

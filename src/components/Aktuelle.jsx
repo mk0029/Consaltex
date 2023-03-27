@@ -33,7 +33,7 @@ function Aktuelle() {
                       >
                         <div className="box_hover_common bg_team h-100">
                           <span className="">
-                            <img className="w-100" src={past.img1} alt="" />
+                            <img className="w-100" src={past.img1} alt="TEAM" />
                           </span>
                           <div className="d-flex flex-column justify-content-between px-1 py-2  py-sm-3 px-sm-2 ">
                             <div className=" d-flex flex-column gap-3">
@@ -66,7 +66,7 @@ function Aktuelle() {
                       <img
                         className="imgLine_btn_common"
                         src={Arrow_btn_nav}
-                        alt=""
+                        alt="ARROW"
                       />
                     </a>
                   </span>

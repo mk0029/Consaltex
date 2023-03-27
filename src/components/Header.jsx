@@ -44,13 +44,13 @@ function Header() {
               <img
                 className="GreyCube_head Grey_Pantagun_animation position-absolute"
                 src={GreyCube_head}
-                alt=""
+                alt="ERROR TO LOAD"
               />
               <div className=" d-flex justify-content-center">
                 <img
                   className="Img_sculpture z_index3 position-relative Translate_Y_sculpture"
                   src={img_with}
-                  alt=""
+                  alt="ERROR TO LOAD"
                 />
               </div>
             </div>
@@ -72,7 +72,7 @@ function Header() {
                     <img
                       className="imgLine_btn_common"
                       src={Arrow_btn_nav}
-                      alt=""
+                      alt="ARROW"
                     />
                   </a>
                 </span>

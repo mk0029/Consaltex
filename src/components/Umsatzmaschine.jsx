@@ -9,13 +9,13 @@ function Umsatzmaschine() {
       <section className=" h-auto min_vh_50  py-lg-5 py-md-4 py-3  position-relative ">
         <img
           src={Right_green}
-          alt=""
+          alt="ERR TO LOAD"
           className="Umsatz_Green_Right position-absolute"
         />{" "}
         <img
           className="GreyCube_Umsatz position-absolute"
           src={GreyCube_head}
-          alt=""
+          alt="ERR TO LOAD"
         />
         <div className=" container">
           <div className="py-lg-5 mb-md-5">
@@ -36,7 +36,7 @@ function Umsatzmaschine() {
                     data-aos-easing="ease-in-out"
                     data-aos-duration="2000"
                     src={Img_c}
-                    alt=""
+                    alt="ERR TO FIND"
                   />
                   <div className="Umsatzm_box_1 position-md-absolute d-flex flex-row-reverse flex-md-row text-md-end ">
                     <div

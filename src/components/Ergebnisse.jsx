@@ -61,7 +61,7 @@ function Ergebnisse() {
                       <img
                         className="imgLine_btn_common"
                         src={Arrow_btn_nav}
-                        alt=""
+                        alt="ARROW"
                       />
                     </a>
                   </span>
@@ -75,7 +75,11 @@ function Ergebnisse() {
               >
                 <div className="d-flex flex-column justify-content-center justify-content-md-start">
                   {" "}
-                  <img className="Width_img_EREGEBNISSE" src={Image2} alt="" />
+                  <img
+                    className="Width_img_EREGEBNISSE"
+                    src={Image2}
+                    alt="IMG_WHITE"
+                  />
                 </div>
               </div>
             </div>

@@ -249,14 +249,14 @@ const MyNav = (props) => {
           <img
             className="PinkCube_Nav position-absolute"
             src={PinkBox_nav}
-            alt=""
+            alt="ERROR TRO LOAD"
           />
         </span>
         <div className="container">
           {" "}
           <nav className=" d-flex justify-content-between align-items-center  py-3 position-relative ">
             <a className="page_logo d-inline-block" href="#">
-              <img className="w-100" src={Pagelogo} alt="" />
+              <img className="w-100" src={Pagelogo} alt="ERROR TO LOAD" />
             </a>
             <ul className="d-none d-xl-flex  gap-4 mb-0 align-items-center">
               <li className=" z_index1">
@@ -299,7 +299,7 @@ const MyNav = (props) => {
                 <img
                   className="imgLine_btn_common"
                   src={Arrow_btn_nav}
-                  alt=""
+                  alt="ARROW"
                 />
               </a>
             </span>{" "}
@@ -570,7 +570,7 @@ const MyNav = (props) => {
                     <img
                       className="imgLine_btn_common"
                       src={Arrow_btn_nav}
-                      alt=""
+                      alt="ARROW"
                     />
                   </a>
                 </span>

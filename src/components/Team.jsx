@@ -31,7 +31,11 @@ function Team() {
                     data-aos-duration="1000"
                   >
                     <div className="bg_team h-100 box_hover_common">
-                      <img className="w-100" src={pastData.img_2} alt="" />
+                      <img
+                        className="w-100"
+                        src={pastData.img_2}
+                        alt=" ERROR TO LOAD"
+                      />
                       <div className="d-flex justify-content-between align-items-center pt-md-4 py-2 px-2  px-sm-3">
                         <div>
                           <h2 className=" ff_Montserrat fs_lg fw-semibold text_theme_white">

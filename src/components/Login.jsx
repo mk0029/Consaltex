@@ -49,13 +49,13 @@ function Login() {
                   </h3>{" "}
                   <div className="d-flex flex-column justify-content-center gap-4">
                     <span className=" d-flex gap-2 align-items-center ">
-                      <img src={location} alt="" />
+                      <img src={location} alt="LOCATION" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander text_theme_white">
                         22143 Hamburg, Rahlstedter Bahnhofstraße 27-29{" "}
                       </span>
                     </span>
                     <span className=" ff_Montserrat fs_sm fw-normal d-flex gap-2 align-items-center text_theme_white ">
-                      <img src={mail} alt="" />
+                      <img src={mail} alt="EMAIL" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander ">
                         info@consaltex.de{" "}
                       </span>
@@ -119,7 +119,7 @@ function Login() {
                       <img
                         className="imgLine_btn_common"
                         src={Arrow_btn_nav}
-                        alt=""
+                        alt="ARROW"
                       />
                     </a>
                   </span>

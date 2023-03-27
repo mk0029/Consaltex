@@ -47,13 +47,13 @@ function MyCalander() {
                   <div className="calander_Sprator_line my-5"></div>
                   <div className="d-flex flex-column justify-content-center gap-2">
                     <span className=" d-flex gap-2 align-items-center ">
-                      <img src={location} alt="" />
+                      <img src={location} alt="LOCATION" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander">
                         22143 Hamburg, Rahlstedter Bahnhofstraße 27-29{" "}
                       </span>
                     </span>
                     <span className=" ff_Montserrat fs_sm fw-normal d-flex gap-2 align-items-center ">
-                      <img src={mail} alt="" />
+                      <img src={mail} alt="EMAIL" />
                       <span className=" ff_Montserrat fs_sm fw-normal span_hover_calander ">
                         info@consaltex.de{" "}
                       </span>
@@ -70,7 +70,7 @@ function MyCalander() {
                 <div className="py-3 px-sm-4  px-3 z_index1 position-relative  bg_calander">
                   <div className="d-flex align-items-center  justify-content-between px-md-2">
                     <a href="#">
-                      <img src={arrow1} alt="arrow1" />
+                      <img src={arrow1} alt="ERROR TO LOAD" />
                     </a>
                     <a
                       className=" fs_xsm fw-normal ff_Montserrat text_theme_white mb-0"
@@ -80,7 +80,7 @@ function MyCalander() {
                     </a>
                     <a href="#">
                       {" "}
-                      <img src={arrow} alt="arrow" />
+                      <img src={arrow} alt="ERROR TO LOAD" />
                     </a>{" "}
                   </div>
                   <table className="mt-4 d-flex justify-content-between w-100 text-center px-md-2">
@@ -279,7 +279,7 @@ function MyCalander() {
                             <img
                               className="imgLine_btn_common_calander"
                               src={Arrow_btn_nav}
-                              alt=""
+                              alt="ARROW"
                             />
                           </a>
                         </span>

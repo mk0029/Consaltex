@@ -39,7 +39,7 @@ function Footer() {
             >
               <div className=" d-flex flex-column justify-content-center align-items-center gap-3">
                 <a className=" text_theme_white" href="#">
-                  <img className="logo_footer" src={logo_img} alt="//" />
+                  <img className="logo_footer" src={logo_img} alt="//error" />
                 </a>
                 <p className="text-center text_theme_white ff_Montserrat fs_sm fw-normal mb-lg-5">
                   Der Sparringspartner für die Skalierung deines Unternehmens.

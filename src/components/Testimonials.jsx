@@ -62,7 +62,11 @@ export default function SimpleSlider() {
                     data-aos-duration="3000"
                   >
                     <div className="bg_dark_green mx-3 ">
-                      <img className="w-100" src={GIrl_using_ipod} alt="" />
+                      <img
+                        className="w-100"
+                        src={GIrl_using_ipod}
+                        alt="ERROR TO LOAD"
+                      />
                       <div className="px-2 py-3">
                         <p className="ff_Montserrat fw-normal fs_sm text_theme_white">
                           Die Metarec GmbH unterstützt unter der Leitung des
@@ -81,7 +85,11 @@ export default function SimpleSlider() {
                     data-aos-duration="3000"
                   >
                     <div className="bg_dark_green mx-3 ">
-                      <img className="w-100" src={GIrl_using_ipod} alt="" />
+                      <img
+                        className="w-100"
+                        src={GIrl_using_ipod}
+                        alt="ERROR TO LOAD"
+                      />
                       <div className="px-2 py-3">
                         <p className="ff_Montserrat fw-normal fs_sm text_theme_white">
                           Die Metarec GmbH unterstützt unter der Leitung des
@@ -95,7 +103,11 @@ export default function SimpleSlider() {
                   </div>
                   <div className="col-6 ">
                     <div className="bg_dark_green mx-3">
-                      <img className="w-100" src={GIrl_using_ipod} alt="" />
+                      <img
+                        className="w-100"
+                        src={GIrl_using_ipod}
+                        alt="ERROR TO LOAD"
+                      />
                       <div className="px-2 py-3">
                         <p className="ff_Montserrat fw-normal fs_sm text_theme_white">
                           Die Metarec GmbH unterstützt unter der Leitung des
@@ -131,7 +143,7 @@ export default function SimpleSlider() {
                       <img
                         className="imgLine_btn_common"
                         src={Arrow_btn_nav}
-                        alt=""
+                        alt="ERROR TO LOAD"
                       />
                     </a>
                   </span>
@@ -142,7 +154,7 @@ export default function SimpleSlider() {
                       className="Btn_slider"
                       onClick={() => btnslider.current.slickPrev()}
                       src={Btn_slider__left}
-                      alt=""
+                      alt="ERROR TO LOAD"
                     />
                   </span>
                   <span>
@@ -150,7 +162,7 @@ export default function SimpleSlider() {
                       onClick={() => btnslider.current.slickNext()}
                       className="Btn_slider"
                       src={Btn_slider__right}
-                      alt=""
+                      alt="ERROR TO LOAD"
                     />
                   </span>
                 </div>
