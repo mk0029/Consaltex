@@ -28,28 +28,28 @@ function Ergebnisse() {
                 data-aos-duration="1000"
               >
                 <div className="px-sm-4 h-100 d-flex flex-column align-items-center align-items-md-start  justify-content-center">
-                  <h2 className=" text_theme_white text_strock1_themeWhite text-center text-md-start ff_Poiret fw-normal fs_xl mb-3">
+                  <h2 className=" text_theme_white text_strock1_themeWhite text-center text-md-start ff_Poiret fw-normal fs_xl mb-3 position-relative z_index1">
                     Wir liefern Ergebnisse
                   </h2>
-                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5">
+                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5 position-relative z_index1">
                     Wir sind vielleicht nicht der größte Player in der Branche,
                     aber auf dem Weg dorthin. Aber vor allem sind wir hungrig
                     darauf, gemeinsam mit Unternehmern wie dir
                     Erfolgsgeschichten zu schreiben.
                   </p>
-                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5">
+                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5 position-relative z_index1">
                     Wenn andere aufgeben, werden wir erst richtig warm. Wir sind
                     der Ansprechpartner für umkämpfte Märkte, komplizierte
                     Kunden, erklärungsbedürftige Services und scheinbar
                     aussichtslose Fälle. Wir sind das Spezialeinsatzkommando für
                     Agenturen.
                   </p>
-                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5">
+                  <p className=" text_theme_white ff_Montserrat fw-normal fs_sm pe-xl-5 me-xl-5 position-relative z_index1">
                     Unser Herz schlägt für den Underdog: David gegen Goliath -
                     Marketing, Vertrieb, interne Prozesse: Unser Team gibt für
                     dich 110 Prozent - weil dein Erfolg unsere Motivation ist.
                   </p>
-                  <span className=" position-relative z_index2 d-inline-block pt-4 z_index1">
+                  <span className=" position-relative z_index2 d-inline-block pt-4 z_index1 position-relative z_index1">
                     <a
                       className="btn_common d-inline-block fw-normal "
                       href="#"

@@ -8,7 +8,7 @@ import Logo5 from "../assets/img//Png/KattanMedia.png";
 function Logos() {
   return (
     <>
-      <section className=" bg_primery py-lg-5 py-4 mt-lg-5">
+      <section className="  py-lg-5 py-4 mt-lg-5">
         <div className=" pb-4 pb-md-5 pt-md-0 pt-4">
           <div className=" d-flex justify-content-center pb-3 ">
             <h3 className="  ff_Montserrat fw-normal text-cneter fs_sm text_theme_white  line_before position-relative">

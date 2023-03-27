@@ -1359,3 +1359,33 @@ div .facebook:hover svg .clippath {
   height: 90%;
   z-index: 0;
 }
+.email_lable ::placeholder {
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  color: #fcfffe;
+}
+.email_lable:hover ::placeholder {
+  opacity: 1;
+}
+.email_lable input {
+  border: transparent 1px solid !important;
+}
+.email_lable:hover input {
+  opacity: 1;
+  border: #0cd845 1px solid !important;
+}
+.email_textariya textarea {
+  border: transparent 1px solid !important;
+}
+.email_textariya:hover textarea {
+  opacity: 1;
+  border: #0cd845 1px solid !important;
+}
+.email_textariya ::placeholder {
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  color: #fcfffe;
+}
+.email_textariya:hover ::placeholder {
+  opacity: 1;
+}

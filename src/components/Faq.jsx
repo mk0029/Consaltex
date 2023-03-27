@@ -24,7 +24,7 @@ function Faq() {
         <img
           src={GreenLeftFaq}
           alt="GreenCube"
-          className="GreenLeftFaq position-absolute"
+          className="GreenLeftFaq position-absolute z_index-1"
         />
         <img
           src={GreyHexagunFaq}

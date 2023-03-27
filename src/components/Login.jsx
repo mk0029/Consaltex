@@ -75,10 +75,11 @@ function Login() {
                       <span className=" text_theme_white ff_Montserrat fs_sm fw-semibold ">
                         Vor- und Nachname
                       </span>
-                      <label htmlFor="Name" className=" w-100">
+                      <label htmlFor="Name" className="email_lable w-100">
                         <input
                           className="w-100 bg_dark_green border-0 px-3 ff_Montserrat fs_sm fw-normal"
                           type="text"
+                          placeholder="Name "
                         />
                       </label>
                     </div>
@@ -86,7 +87,7 @@ function Login() {
                       <span className=" text_theme_white  ff_Montserrat fs_sm fw-semibold   ">
                         Email
                       </span>
-                      <label htmlFor="Name" className=" w-100">
+                      <label htmlFor="Name" className=" email_lable w-100">
                         <input
                           className="w-100 bg_dark_green border-0 px-3 ff_Montserrat fs_sm fw-normal"
                           type="text"
@@ -98,13 +99,14 @@ function Login() {
                       <span className=" text_theme_white  ff_Montserrat fs_sm fw-semibold   ">
                         Erzähl uns von dir
                       </span>
-                      <label htmlFor="Name" className=" w-100">
+                      <label htmlFor="Name" className="email_textariya w-100">
                         <textarea
                           className="w-100 bg_dark_green border-0 p-3  ff_Montserrat fs_sm fw-normal"
                           name=""
                           id=""
                           cols="30"
                           rows="10"
+                          placeholder="Erzähl uns von dir"
                         ></textarea>
                         {/* <input type="text" placeholder="example@mail.com " /> */}
                       </label>

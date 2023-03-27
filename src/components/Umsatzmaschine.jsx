@@ -6,7 +6,7 @@ function Umsatzmaschine() {
   return (
     <>
       {" "}
-      <section className=" h-auto min_vh_50  py-lg-5 py-md-4 py-3  position-relative ">
+      <section className=" h-auto min_vh_50  py-lg-5 py-md-4 py-3  position-relative z_index-1">
         <img
           src={Right_green}
           alt="ERR TO LOAD"
