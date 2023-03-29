@@ -6,11 +6,11 @@ function Umsatzmaschine() {
   return (
     <>
       {" "}
-      <section className=" h-auto min_vh_50  py-lg-5 py-md-4 py-3  position-relative z_index-1">
+      <section className=" h-auto min_vh_50  py-lg-5 py-md-4 py-3  position-relative z_index">
         <img
           src={Right_green}
           alt="ERR TO LOAD"
-          className="Umsatz_Green_Right position-absolute"
+          className="Umsatz_Green_Right position-absolute z_index-1"
         />{" "}
         <img
           className="GreyCube_Umsatz position-absolute"
@@ -28,7 +28,7 @@ function Umsatzmaschine() {
               </h2>
             </div>
             <div className=" mt-5 pt-2 mb-xl-5 pb-xl-5 hover_animate">
-              <div className="row justify-content-md-center position-relative">
+              <div className="row justify-content-md-center position-relative z_index6 ">
                 <div className="col-md-11 d-flex justify-content-md-center flex-column flex-md-row ">
                   <img
                     className="img_C"
@@ -126,7 +126,7 @@ function Umsatzmaschine() {
                     </span>
                   </div>
                   {/* //////////////////////////////////////Box@2///////////////////////////////////// */}
-                  <div className="Umsatzm_box_2 position-md-absolute d-flex flex-row-reverse flex-md-row text-md-end ">
+                  <div className="Umsatzm_box_2 position-md-absolute z_index3 d-flex flex-row-reverse flex-md-row text-md-end ">
                     <div
                       className="Umsatzm_Text_box ps-4 ps-md-0 pe-md-4"
                       data-aos="zoom-out"

@@ -249,17 +249,17 @@ function MyCalander() {
                   </h2>
                   <div className="row px-md-2">
                     <div className="col-6 p-1">
-                      <button className="w-100 fs_xsm fw-normal text_theme_white btn_tabel z_index1">
+                      <button className="w-100 fs_xsm fw-normal ff_Montserrat text_theme_white btn_tabel z_index1">
                         1.00 PM-2.00 PM
                       </button>
                     </div>
                     <div className="col-6 p-1">
-                      <button className="w-100 fs_xsm fw-normal text_theme_white btn_tabel z_index1">
+                      <button className="w-100 fs_xsm fw-normal ff_Montserrat text_theme_white btn_tabel z_index1">
                         3.00 PM-4.00 PM
                       </button>
                     </div>
                     <div className="col-6 p-1">
-                      <button className="w-100 fs_xsm fw-normal text_theme_white btn_tabel z_index1">
+                      <button className="w-100 fs_xsm fw-normal ff_Montserrat text_theme_white btn_tabel z_index1">
                         6.00 PM-8.00 PM
                       </button>
                     </div>

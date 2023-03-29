@@ -141,7 +141,7 @@ export default function SimpleSlider() {
                     >
                       Mehr ansehen
                       <img
-                        className="imgLine_btn_common"
+                        className="imgLine_btn_common cursor_pointer"
                         src={Arrow_btn_nav}
                         alt="ERROR TO LOAD"
                       />
@@ -151,7 +151,7 @@ export default function SimpleSlider() {
                 <div className="d-flex justify-content-between justify-content-md-start gap-3 my-lg-0 my-3">
                   <span>
                     <img
-                      className="Btn_slider"
+                      className="Btn_slider cursor_pointer"
                       onClick={() => btnslider.current.slickPrev()}
                       src={Btn_slider__left}
                       alt="ERROR TO LOAD"

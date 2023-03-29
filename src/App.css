@@ -615,7 +615,7 @@ div .facebook:hover svg .clippath {
   width: 8%;
 }
 .GreenLeftFaq {
-  left: 6px;
+  left: 0px;
   bottom: 0%;
   width: 30%;
 }
@@ -647,8 +647,9 @@ div .facebook:hover svg .clippath {
     width: 100%;
   }
   .Umsatzm_box_1 svg {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
   }
   .Umsatzm_box_2 svg {
     height: 90px;
@@ -772,8 +773,9 @@ div .facebook:hover svg .clippath {
   }
 
   .Umsatzm_box_1 svg {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
   }
   .Umsatzm_box_2 svg {
     height: 90px;
@@ -896,6 +898,7 @@ div .facebook:hover svg .clippath {
   .Umsatzm_box_1 svg {
     height: 100px;
     width: 100px;
+    margin-left: 0;
   }
   .Umsatzm_box_2 svg {
     height: 90px;
@@ -985,6 +988,7 @@ div .facebook:hover svg .clippath {
     transition: all 600ms ease-in-out;
     z-index: 121;
     font-size: 16px !important;
+    padding-right: 10px;
   }
   .Hide_Nav {
     position: absolute;

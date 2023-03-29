@@ -10,7 +10,7 @@ function Loader(props) {
     }, props.textCount);
   }, []);
   {
-    if (loder) {
+    if (loder === 0) {
       document.body.style.overflow = "hidden";
       document.documentElement.scrollTop = 0;
     } else {

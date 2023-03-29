@@ -28,11 +28,7 @@ function BackTop() {
                 : "d-none  "
             }
           >
-            <img
-              className="gotop bg_primery border-0"
-              src={gotop}
-              alt=" Go-to-Top"
-            />
+            <img className="gotop  border-0 " src={gotop} alt=" Go-to-Top" />
           </span>
         </div>
       </section>

@@ -253,8 +253,7 @@ const MyNav = (props) => {
           />
         </span>
         <div className="container">
-          {" "}
-          <nav className=" d-flex justify-content-between align-items-center  py-3 position-relative ">
+          <nav className=" d-flex justify-content-between align-items-center  py-3 position-relative pe-2 pe-md-0 ">
             <a className="page_logo d-inline-block" href="#">
               <img className="w-100" src={Pagelogo} alt="ERROR TO LOAD" />
             </a>
@@ -293,7 +292,7 @@ const MyNav = (props) => {
                 </Link>
               </li>
             </ul>
-            <span className="d-none d-md-inline-block z_index1">
+            <span className="d-none d-md-inline-block z_index6">
               <a className="btn_common d-inline-block fw-normal " href="#">
                 Jetzt Erstgespräch vereinbaren{" "}
                 <img

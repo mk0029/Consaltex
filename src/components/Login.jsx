@@ -10,12 +10,12 @@ function Login() {
     <>
       <section className="py-xl-5 py-4 my-md-4 Login position-relative ">
         <img
-          className="Login_Greenimg_left position-absolute"
+          className="Login_Greenimg_left position-absolute z_index-1"
           src={Left_green}
           alt="Green Shaddow"
         />
         <img
-          className="Logit_Greenimg_right position-absolute"
+          className="Logit_Greenimg_right position-absolute z_index-1"
           src={Right_green}
           alt="Green Shaddow"
         />

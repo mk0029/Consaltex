@@ -10,7 +10,7 @@ import GreyHexagunFaq from "../assets/img/Png/HexagunCalander.png";
 function Faq() {
   return (
     <>
-      <section className=" bg_primery  py-lg-5 py-4 position-relative z_index0 my-xl-0  ">
+      <section className=" bg_primery  py-lg-5 py-4 position-relative z_index0 mt-md-0 mt-3 my-xl-0  ">
         <img
           src={IMGGREENCUBE}
           alt="GreenCube"
@@ -44,7 +44,7 @@ function Faq() {
               </h3>
               <div>
                 <Accordion
-                  className="mt-5 z_index6 position-relative"
+                  className="mt-xl-5 mt-md-4 mt-2 z_index6 position-relative"
                   defaultActiveKey="0"
                 >
                   <Accordion.Item

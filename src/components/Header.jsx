@@ -9,14 +9,14 @@ import Right_green from "../assets/img//Png/right_green_shaddow.png";
 function Header() {
   return (
     <>
-      <section className="pt-4 pt-xl-5 pb-md-0 pb-4 position-relative">
+      <section className="pt-4 pt-xl-5 pb-md-0 pb-4 position-relative z_index2">
         <img
-          className="hrader_Greenimg_left position-absolute z_index0"
+          className="hrader_Greenimg_left position-absolute z_index-1"
           src={Left_green}
           alt="Green Shaddow"
         />
         <img
-          className="hrader_Greenimg_right position-absolute"
+          className="hrader_Greenimg_right position-absolute z_index-1"
           src={Right_green}
           alt="Green Shaddow"
         />
